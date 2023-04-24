@@ -9,10 +9,11 @@
  */
 void swap(int *array, size_t start, size_t next)
 {
-	size_t temp = array[next];
+	size_t temporary = array[next];
+	
 
 	array[next] = array[start];
-	array[start] = temp;
+	array[start] = temporary;
 }
 
 /**
